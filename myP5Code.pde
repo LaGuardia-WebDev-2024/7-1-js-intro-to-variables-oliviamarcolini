@@ -6,7 +6,7 @@ void setup() {
 
 //🎯Varaible Declarations Go Here
 var eyeSize = 7;
-var teethHeight = 90;
+var teethHeight = 30;
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
@@ -56,6 +56,8 @@ void mousePressed(){
   text(myText, mouseX + 15, mouseY);
   console.log(myText);
   
+  eyeSize = random(10,40);
+  teethHeight = teethHeight +5;
   
 }
 
